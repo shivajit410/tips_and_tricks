@@ -20,8 +20,8 @@ Steps for setting up 2 diffferent accounts in the same machine
 
    ```
    cd ~/.ssh
-   ssh keygen -t ed25519 -C "personal@email.com" -f "personal_name"
-   ssh keygen -t ed25519 -C "work@email.com" -f "work_name"
+   ssh-keygen -t ed25519 -C "personal@email.com" -f "personal_name"
+   ssh-keygen -t ed25519 -C "work@email.com" -f "work_name"
    ```
 3. Start SSH agent
 
